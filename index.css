@@ -80,6 +80,11 @@ nav {
   .navbar > .container-fluid {
     display: block;
   }
+  #imag {
+    width: 250%;
+    position: relative;
+    margin-left: 0px;
+  }
 }
 .hr-first,
 .pap-heading {
@@ -127,9 +132,7 @@ nav {
   font-weight: 500;
   box-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
 }
-#imag {
-  width: 50%;
-}
+
 .certfications {
   width: 40%;
   padding: 1%;
