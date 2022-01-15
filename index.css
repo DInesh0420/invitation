@@ -231,7 +231,7 @@ h4 {
   color: red;
 }
 .reg-content {
-  margin: 300px 50px;
+  margin-top: 300px;
   text-align: center;
 }
 #scanner {
@@ -276,4 +276,9 @@ h4 {
   border-radius: 5px;
   border: 2px solid black;
   transition: 0.2s;
+}
+@media (max-width: 900px) {
+  .fa-arrow-right {
+    transform: rotate(90deg);
+  }
 }
