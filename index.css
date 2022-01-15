@@ -34,10 +34,16 @@ nav {
   .logo {
     max-width: 50%;
   }
+  .fa-bars {
+    font-size: 20px;
+  }
 }
 @media (max-width: 400px) {
   .logo {
     max-width: 50%;
+  }
+  .fa-bars {
+    font-size: 20px;
   }
 }
 .navbar-nav .nav-link {
