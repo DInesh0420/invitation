@@ -30,6 +30,16 @@ nav {
   border: 1px solid #0e2f6c;
   transition: 0.5s;
 }
+@media (max-width: 600px) {
+  .logo {
+    max-width: 50%;
+  }
+}
+@media (max-width: 400px) {
+  .logo {
+    max-width: 50%;
+  }
+}
 .navbar-nav .nav-link {
   padding-right: 0;
   padding-left: 10px;
