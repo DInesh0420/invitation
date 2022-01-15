@@ -1,5 +1,6 @@
 body {
   background-color: #f6f2d4;
+  letter-spacing: 1px;
 }
 *,
 *::before,
@@ -85,9 +86,14 @@ nav {
     position: relative;
     margin-left: 0px;
   }
+  .mail {
+    font-size: 13px;
+  }
 }
 .hr-first,
 .pap-heading {
+  text-shadow: 0px 0px 3px rgba(6, 153, 221, 0.5);
+  margin: 5px;
   position: relative;
   top: 100px;
 }
@@ -98,6 +104,9 @@ nav {
   font-size: 30px;
   font-weight: 200;
   font-style: normal;
+}
+.rs {
+  font-size: 2rem;
 }
 .info {
   color: #0e2f6c;
@@ -110,7 +119,7 @@ nav {
   color: #0e2f6c;
   font-family: "Mukta Malar", Sans-serif;
   font-size: 47px;
-  font-weight: 100;
+  font-weight: 200;
   line-height: 1em;
 }
 .highlight {
@@ -128,7 +137,7 @@ nav {
   padding: 2%;
   color: #ffffff;
   font-family: "Mukta Malar", Sans-serif;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 500;
   box-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
 }
@@ -220,7 +229,7 @@ h4 {
   top: 200px;
   text-align: center;
 }
-.pap-heading h1,
+h1,
 .topics h1 {
   text-transform: uppercase;
 }
@@ -238,6 +247,13 @@ h4 {
   font-weight: 500;
   box-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
 }
+@media (max-width: 900px) {
+  .topics li,
+  .list {
+    margin: 10px -31px;
+    line-height: 2rem;
+  }
+}
 @media (min-width: 1000px) {
   .list {
     line-height: 3, rem;
@@ -250,11 +266,10 @@ h4 {
   color: red;
 }
 .reg-content {
-  margin-top: 300px;
+  margin-top: 200px;
   text-align: center;
 }
 #scanner {
-  width: 50%;
   padding: 1%;
 }
 .dates {
@@ -263,6 +278,15 @@ h4 {
   text-align: center;
 }
 .dates p {
+  font-weight: 400;
+  color: #0e2f6c;
+}
+.reg-dates {
+  position: relative;
+  top: 150px;
+  text-align: center;
+}
+.reg-dates p {
   font-weight: 400;
   color: #0e2f6c;
 }
@@ -293,11 +317,14 @@ h4 {
 }
 .con-con:hover {
   border-radius: 5px;
-  border: 2px solid black;
-  transition: 0.2s;
+  border: 2px solid rgb(2, 44, 134);
+  transition: 0.1s;
 }
 @media (max-width: 900px) {
   .fa-arrow-right {
     transform: rotate(90deg);
   }
+}
+#Topic {
+  padding: 2%;
 }
