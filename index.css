@@ -1,0 +1,279 @@
+body {
+  background-color: #f6f2d4;
+}
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: #ffffff;
+}
+#nava {
+  text-decoration: none;
+  font-family: "poppins";
+  color: #5584ac;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  font-weight: bolder;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+#nava:active,
+#nava:hover {
+  border-radius: 5px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+  border: 1px solid #0e2f6c;
+  transition: 0.5s;
+}
+.navbar-nav .nav-link {
+  padding-right: 0;
+  padding-left: 10px;
+}
+.navbar-nav {
+  margin-left: -154px;
+}
+@media (max-width: 900px) {
+  .navbar-nav {
+    margin-left: 0px;
+  }
+}
+.navbar-brand {
+  margin-right: 8rem;
+}
+.nav-item {
+  padding-left: 1%;
+  padding-right: 1%;
+}
+.home-content {
+  text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+  position: relative;
+  top: 100px;
+  padding: 5%;
+  padding-bottom: 10em;
+}
+.navbar-toggler {
+  color: #000000;
+  background-color: #5584ac;
+}
+@media (max-width: 900px) {
+  .navbar > .container-fluid {
+    display: block;
+  }
+}
+.hr-first,
+.pap-heading {
+  position: relative;
+  top: 100px;
+}
+.vlessimp {
+  text-transform: uppercase;
+  color: #008000;
+  font-family: "Mukta Malar", Sans-serif;
+  font-size: 30px;
+  font-weight: 200;
+  font-style: normal;
+}
+.info {
+  color: #0e2f6c;
+  font-family: "Mukta Malar", Sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 1em;
+}
+.lessimp {
+  color: #0e2f6c;
+  font-family: "Mukta Malar", Sans-serif;
+  font-size: 47px;
+  font-weight: 100;
+  line-height: 1em;
+}
+.highlight {
+  color: #0e2f6c;
+  font-family: "Mukta Malar", Sans-serif;
+  font-size: 91px;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 1em;
+  text-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
+}
+.moreimp {
+  border-radius: 5px;
+  background-color: #0e2f6c;
+  padding: 2%;
+  color: #ffffff;
+  font-family: "Mukta Malar", Sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  box-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
+}
+#imag {
+  width: 50%;
+}
+.certfications {
+  width: 40%;
+  padding: 1%;
+}
+.certfied {
+  position: relative;
+  top: 50px;
+  text-align: center;
+  padding: 2%;
+}
+.nba {
+  width: 30%;
+}
+.jumbotron {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 50px;
+  margin: 30px;
+  line-height: 2em;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+}
+footer {
+  text-align: center;
+  position: relative;
+  padding-bottom: 50px;
+}
+.conf-jumbotron1 {
+  position: relative;
+  top: 150px;
+  background-color: #ffffff;
+  text-align: center;
+  padding: 50px;
+  margin: 30px 15px 30px 15px;
+  line-height: 2em;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+}
+.conf-jumbotron {
+  position: relative;
+  top: 200px;
+  background-color: #ffffff;
+  text-align: center;
+  padding: 50px;
+  margin: 30px 15px 30px 15px;
+  line-height: 2em;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+}
+.heads,
+h4 {
+  color: #0e2f6c;
+  font-family: var(
+      --wsr-font-family,
+      HelveticaNeueW01-65Medi,
+      HelveticaNeueW02-65Medi,
+      HelveticaNeueW10-65Medi
+    ),
+    "Helvetica Neue", "Helvetica", "Arial", "\30E1\30A4\30EA\30AA", "meiryo",
+    "\30D2\30E9\30AE\30CE\89D2\30B4 pro w3", "hiragino kaku gothic pro",
+    "sans-serif";
+}
+.paras {
+  color: #0e2f6c;
+  font-weight: 400;
+}
+.orgs {
+  line-height: 2rem;
+}
+.orgs p {
+  font-size: 20px;
+  font-weight: 100;
+}
+#names {
+  padding: 1%;
+}
+.col {
+  padding: 5%;
+}
+.conf-footer {
+  position: relative;
+  top: 200px;
+}
+.pap-heading {
+  top: 200px;
+  text-align: center;
+}
+.pap-heading h1,
+.topics h1 {
+  text-transform: uppercase;
+}
+.topics li,
+.list {
+  margin: 25px;
+  list-style: none;
+  border-radius: 5px;
+  background-color: #0e2f6c;
+  padding: 3%;
+  color: #ffffff;
+  font-family: "Mukta Malar", Sans-serif;
+  font-size: 20px;
+  line-height: 1rem;
+  font-weight: 500;
+  box-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
+}
+@media (min-width: 1000px) {
+  .list {
+    line-height: 3, rem;
+    padding: 1%;
+    margin: 0px 280px;
+    font-size: 25px;
+  }
+}
+.mail {
+  color: red;
+}
+.reg-content {
+  margin: 300px 50px;
+  text-align: center;
+}
+#scanner {
+  width: 50%;
+  padding: 1%;
+}
+.dates {
+  position: relative;
+  top: 250px;
+  text-align: center;
+}
+.dates p {
+  font-weight: 400;
+  color: #0e2f6c;
+}
+.impdates {
+  position: relative;
+  top: 50px;
+}
+.pap-footer {
+  position: relative;
+  top: 300px;
+}
+.con-head {
+  margin-bottom: 100px;
+  text-transform: uppercase;
+}
+.contact {
+  position: relative;
+  top: 250px;
+  text-align: center;
+}
+.contact p {
+  margin: 10px;
+}
+.con-a {
+  text-decoration: none;
+  border-radius: 5px;
+  border: 2px solid transparent;
+}
+.con-con:hover {
+  border-radius: 5px;
+  border: 2px solid black;
+  transition: 0.2s;
+}
