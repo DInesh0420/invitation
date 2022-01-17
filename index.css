@@ -154,7 +154,10 @@ nav {
   font-weight: 500;
   box-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
 }
-
+.l-cer {
+  width: 30%;
+  padding: 1%;
+}
 .certfications {
   width: 40%;
   padding: 1%;
@@ -177,11 +180,6 @@ nav {
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
   border-radius: 2px;
 }
-footer {
-  text-align: center;
-  position: relative;
-  padding-bottom: 50px;
-}
 .conf-jumbotron1 {
   position: relative;
   top: 150px;
@@ -203,6 +201,53 @@ footer {
   line-height: 2em;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
   border-radius: 2px;
+}
+@media (max-width: 700px) {
+  .jumbotron {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 50px;
+    margin: -11px;
+    line-height: 2em;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 2px;
+  }
+  .conf-jumbotron1 {
+    position: relative;
+    top: 150px;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 50px;
+    margin: 30px -15px 30px -15px;
+    line-height: 2em;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 2px;
+  }
+  .conf-jumbotron {
+    position: relative;
+    top: 200px;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 50px;
+    margin: 30px -15px 30px -15px;
+    line-height: 2em;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 2px;
+  }
+}
+footer {
+  background-color: #f1eab5;
+  text-align: center;
+  position: relative;
+  padding-bottom: 30px;
+  top: 50px;
+}
+footer h4 {
+  font-size: 15px;
+}
+footer p,
+footer i {
+  font-size: 14px;
 }
 .heads,
 h4 {
@@ -325,13 +370,8 @@ h1,
 }
 .con-a {
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 10px;
   border: 2px solid transparent;
-}
-.con-con:hover {
-  border-radius: 5px;
-  border: 2px solid rgb(2, 44, 134);
-  transition: 0.1s;
 }
 @media (max-width: 900px) {
   .fa-arrow-right {
