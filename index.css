@@ -39,11 +39,25 @@ nav {
   text-transform: uppercase;
 }
 @media (max-width: 700px) {
+  .offcanvas {
+    position: fixed;
+    bottom: 0;
+    z-index: 1045;
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+    height: 100%;
+    visibility: hidden;
+    background-color: #fff;
+    background-clip: padding-box;
+    outline: 0;
+    transition: transform 0.5s ease-in-out;
+  }
   .logo {
     max-width: 50%;
   }
   .fa-bars {
-    font-size: 20px;
+    font-size: 30px;
   }
   .abt {
     text-transform: uppercase;
@@ -61,7 +75,7 @@ nav {
   .fa-bars {
     position: relative;
     right: 6px;
-    font-size: 20px;
+    font-size: 25px;
   }
 }
 .navbar-nav .nav-link {
