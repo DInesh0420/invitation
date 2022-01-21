@@ -1,5 +1,5 @@
 body {
-  background-color: #f6f2d4;
+  background-color: #ccd1e4;
   letter-spacing: 1px;
 }
 *,
@@ -9,31 +9,28 @@ body {
   margin: 0;
   box-sizing: border-box;
 }
-
+.stanz {
+  text-align: justify;
+}
 nav {
-  background-color: #ffffff;
+  background-color: #feece9;
 }
 #nava {
   text-decoration: none;
   font-family: "poppins";
-  color: #5584ac;
+  color: #0e2f6c;
   font-size: 13px;
+  text-shadow: 0px 0px 6px rgb(0 0 0 / 10%);
   letter-spacing: 0.5px;
   font-weight: bolder;
+  /*background-color: #0e2f6c; */
   border: 1px solid transparent;
-  border-radius: 5px;
+  border-radius: 10px;
   text-transform: uppercase;
-}
-#nava:active,
-#nava:hover {
-  border-radius: 5px;
-  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
-  border: 1px solid #0e2f6c;
-  transition: 0.5s;
 }
 .fa-bars {
   font-size: 30px;
-  color: #0e2f6c;
+  color: #fe7e6d;
 }
 .abt {
   text-transform: uppercase;
@@ -48,7 +45,7 @@ nav {
     max-width: 60%;
     height: 100%;
     visibility: hidden;
-    background-color: #fff;
+    background-color: #feece9;
     background-clip: padding-box;
     outline: 0;
     transition: transform 0.5s ease-in-out;
@@ -94,13 +91,14 @@ nav {
   margin-right: 8rem;
 }
 .nav-item {
+  padding: 5%;
   padding-left: 1%;
   padding-right: 1%;
 }
 .home-content {
   text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
   position: relative;
-  top: 150px;
+  top: 130px;
   padding: 5%;
   padding-bottom: 15em;
 }
@@ -146,9 +144,9 @@ nav {
   line-height: 1em;
 }
 .lessimp {
-  color: #0e2f6c;
+  color: #2f3a8f;
   font-family: "Mukta Malar", Sans-serif;
-  font-size: 47px;
+  font-size: 40px;
   font-weight: 200;
   line-height: 1em;
 }
@@ -170,6 +168,19 @@ nav {
   font-size: 15px;
   font-weight: 500;
   box-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
+}
+.mmoreimp {
+  border-radius: 5px;
+  background-color: #0e2f6c;
+  padding: 2%;
+  color: #ffffff;
+  font-family: "Mukta Malar", Sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  box-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
+}
+.names p {
+  text-align: justify;
 }
 .l-cer {
   width: 30%;
@@ -195,7 +206,7 @@ nav {
   margin: 30px;
   line-height: 2em;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
-  border-radius: 2px;
+  border-radius: 10px;
 }
 .conf-jumbotron1 {
   position: relative;
@@ -206,7 +217,7 @@ nav {
   margin: 30px 15px 30px 15px;
   line-height: 2em;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
-  border-radius: 2px;
+  border-radius: 10px;
 }
 .conf-jumbotron {
   position: relative;
@@ -217,18 +228,15 @@ nav {
   margin: 30px 15px 30px 15px;
   line-height: 2em;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
-  border-radius: 2px;
+  border-radius: 10px;
 }
 .topics {
   position: relative;
   top: 200px;
-  background-color: #ffffff;
   text-align: center;
   padding: 50px;
   margin: 30px 15px 30px 15px;
   line-height: 2em;
-  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
-  border-radius: 2px;
 }
 @media (max-width: 700px) {
   .home-content {
@@ -269,13 +277,10 @@ nav {
   .topics {
     position: relative;
     top: 200px;
-    background-color: #ffffff;
     text-align: center;
     padding: 50px 30px 50px 30px;
     margin: 30px -15px 30px -15px;
     line-height: 2em;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
-    border-radius: 2px;
   }
   .lessimp {
     color: #0e2f6c;
@@ -295,7 +300,7 @@ nav {
   }
 }
 footer {
-  background-color: #f1eab5;
+  background-color: #feece9;
   text-align: center;
   position: relative;
   padding-bottom: 30px;
@@ -310,7 +315,8 @@ footer i {
 }
 .heads,
 h4 {
-  color: #0e2f6c;
+  font-weight: 600;
+  color: #2f3a8f;
   font-family: var(
       --wsr-font-family,
       HelveticaNeueW01-65Medi,
